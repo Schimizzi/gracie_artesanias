@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+.logo_gracie {
+    width: 50px;
+    padding-left: 5px;
+}
+.titulo_gracie {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.titulo_productos {
+    background-color: azure;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    padding: 16px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+/* IMAGEN CAROUSEL 
+.img_carousel {
+    object-fit: contain;
+    max-height: min-content;
+    width: max-content;
+}*/
+
+.img_carousel img {
+    border-radius: 20px;
+}
