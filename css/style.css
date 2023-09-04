@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
 
 /* NAVBAR */
@@ -13,11 +12,13 @@
     width: 50px;
     padding-left: 5px;
 }
+
 .titulo_gracie {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: auto;
     font-size: 1.5rem;
+
 }
 
 /* BODY */
@@ -52,6 +53,7 @@ body {
 .img_carousel img {
     border-radius: 20px;
 }
+
 /* SOBRE MI */
 .sobre_mi {
     color: #01021b;
@@ -59,18 +61,19 @@ body {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.5rem;
-    text-shadow: 2px 2px 0 #fafafa, 2px 2px 0 #fafafa, 2px 2px 0 #fafafa, 2px 2px 0 #fafafa;
+    /*text-shadow: 2px 2px 0 #fafafa, 2px 2px 0 #fafafa, 2px 2px 0 #fafafa, 2px 2px 0 #fafafa;*/
 }
+
 .titulo_mi {
     text-align: center;
     text-shadow: 3px 3px 0 #fafafa, 3px 3px 0 #fafafa, 3px 3px 0 #fafafa, 3px 3px 0 #fafafa;
 }
 
 .fondo_body {
-    background-image: url("../img/fondo_sobremi1.jpg"); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-image: url("../img/fondo_sobremi2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* CONTACTO */
@@ -88,3 +91,49 @@ body {
 .text_formulario {
     font-weight: bold;
 }
+
+/* GALERIA */
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+  }
+
+.contenedor_grid {
+    display: grid;
+    grid-template-areas: 
+    "cuadro_a cuadro_b cuadro_d"
+    "cuadro_e cuadro_b cuadro_c"
+    "cuadro_f cuadro_g cuadro_c"
+}
+.cuadro_a{
+    grid-area: cuadro_a;
+}
+.cuadro_b{
+    grid-area: cuadro_b;
+}
+.cuadro_c{
+    grid-area: cuadro_c;
+}
+.cuadro_d{
+    grid-area: cuadro_d;
+}
+.cuadro_e{
+    grid-area: cuadro_e;
+}
+.cuadro_f{
+    grid-area: cuadro_f;
+}
+
+.grid_img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+    height: 100%; /* Hace que la imagen ocupe todo el alto del contenedor */
+    object-fit: cover; /* Ajusta la imagen para que cubra completamente el contenedor sin distorsionarla */
+  }
+  
+
+  
+  
+  
+  
