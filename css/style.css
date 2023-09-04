@@ -1,6 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
 
+/* NAVBAR */
+
+.navbar_personalizado {
+    background-color: rgba(245, 231, 215, 0.868);
+
+}
+
 
 .logo_gracie {
     width: 50px;
@@ -13,19 +20,26 @@
     font-size: 1.5rem;
 }
 
+/* BODY */
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    background-color: rgba(245, 231, 215, 0.868);
+
 }
 
+/* PRODUCTOS */
 .titulo_productos {
-    background-color: azure;
-    color: red;
+    background-color: bisque;
+    color: chocolate;
     text-align: center;
     font-weight: bold;
     padding: 16px;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 /* IMAGEN CAROUSEL 
@@ -38,23 +52,39 @@ body {
 .img_carousel img {
     border-radius: 20px;
 }
-/* CONTATO */
+/* SOBRE MI */
 .sobre_mi {
-    color: #000;
+    color: #01021b;
     padding: 5px 10%;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.5rem;
-    text-shadow: -2px -2px 0 #fafafa, 2px -2px 0 #fafafa, -2px 2px 0 #fafafa, 2px 2px 0 #fafafa;
+    text-shadow: 2px 2px 0 #fafafa, 2px 2px 0 #fafafa, 2px 2px 0 #fafafa, 2px 2px 0 #fafafa;
 }
 .titulo_mi {
     text-align: center;
-    text-shadow: -3px -3px 0 #fafafa, 3px -3px 0 #fafafa, -3px 3px 0 #fafafa, 3px 3px 0 #fafafa;
+    text-shadow: 3px 3px 0 #fafafa, 3px 3px 0 #fafafa, 3px 3px 0 #fafafa, 3px 3px 0 #fafafa;
 }
 
 .fondo_body {
-    background-image: url("../img/fondo_sobremi.jpg"); 
+    background-image: url("../img/fondo_sobremi1.jpg"); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
+}
+
+/* CONTACTO */
+
+.btn_enviar {
+    margin-top: 10px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.formulario_personalizado {
+    margin: 5px 0px;
+}
+
+.text_formulario {
+    font-weight: bold;
 }
