@@ -100,6 +100,21 @@ body {
     font-weight: bold;
 }
 
+.contacto_saludo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.contacto_map {
+    margin: 40px 0px 0px 0px;   
+ 
+}
+
+.contacto_column {
+    width: 100%;
+    justify-items: center;
+}
+
 /* GALERIA */
 .item {
     display: flex;
