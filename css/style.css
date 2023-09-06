@@ -60,10 +60,10 @@ body {
 
 
 .img_carousel img {
-    width: 100%; 
-    max-height: 600px; 
+    width: 100%;
+    max-height: 600px;
     min-height: 400px;
-    object-fit: cover; 
+    object-fit: cover;
     border-radius: 20px;
 }
 
@@ -104,13 +104,14 @@ body {
 }
 
 .formulario_personalizado {
-    margin: 5px 0px;
+    align-content: center;
+    text-align: center;
 }
 
 .contacto_column {
 
     margin-top: -10px;
-    
+
 }
 
 .text_formulario {
@@ -119,15 +120,19 @@ body {
     width: 100vh;
 }
 
+.saludo_map {
+    text-align: center;
+}
+
 .contacto_saludo {
     font-size: 1.4rem;
     font-weight: bold;
 }
+
 .container_map {
     display: flex;
     flex-direction: column;
-
-
+    padding-top: 30px;
 }
 
 
@@ -142,27 +147,36 @@ body {
     margin: auto;
     flex-direction: row;
     flex-wrap: wrap-reverse;
+    justify-content: center;
 }
-  
+
 .hijo_flex {
     width: 50%;
-    min-width: 500px;
-
-}
-@media (max-width: 500px) {
-    .text_formulario {
-        max-width: 500px;
-    }
-
+    padding: 60px 50px;
 }
 
 @media (min-width: 501px) and (max-width: 900px) {
-    .text_formulario {
+    .hijo_flex {
         max-width: 900px;
         min-width: 501px;
+        padding: 0px 0px;
+
     }
 
 }
+
+@media (max-width: 500px) {
+    .hijo_flex {
+        max-width: 500px;
+        min-width: 300px;
+        padding: 0px 0px;
+
+
+    }
+
+}
+
+
 
 
 /* GALERIA */
@@ -170,42 +184,48 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
 .contenedor_grid {
     display: grid;
-    grid-template-areas: 
-    "cuadro_a cuadro_b cuadro_d"
-    "cuadro_e cuadro_b cuadro_c"
-    "cuadro_f cuadro_g cuadro_c"
+    grid-template-areas:
+        "cuadro_a cuadro_b cuadro_d"
+        "cuadro_e cuadro_b cuadro_c"
+        "cuadro_f cuadro_g cuadro_c"
 }
-.cuadro_a{
+
+.cuadro_a {
     grid-area: cuadro_a;
 }
-.cuadro_b{
+
+.cuadro_b {
     grid-area: cuadro_b;
 }
-.cuadro_c{
+
+.cuadro_c {
     grid-area: cuadro_c;
 }
-.cuadro_d{
+
+.cuadro_d {
     grid-area: cuadro_d;
 }
-.cuadro_e{
+
+.cuadro_e {
     grid-area: cuadro_e;
 }
-.cuadro_f{
+
+.cuadro_f {
     grid-area: cuadro_f;
 }
 
 .grid_img {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 20px;
     padding: 5px;
 }
-  
+
 
 /* FOOTER */
 
@@ -215,10 +235,8 @@ body {
 }
 
 
-  
-  
+
+
 
 
 /*prueba contacto*/
-
-
