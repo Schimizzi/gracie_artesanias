@@ -22,9 +22,9 @@
 
 .titulo_gracie {
     font-weight: bold;
-    /*font-family: 'Phudu', cursive;*/
+    font-family: 'Phudu', cursive;
     /*font-family: 'Roboto', sans-serif;*/
-    font-family: 'Ubuntu', sans-serif;
+    /*font-family: 'Ubuntu', sans-serif;*/
     margin: auto;
     font-size: x-large;
 
@@ -56,14 +56,14 @@ body {
     box-shadow: 5px 5px 10px black;
 }
 
-/* IMAGEN CAROUSEL 
-.img_carousel {
-    object-fit: contain;
-    max-height: min-content;
-    width: max-content;
-}*/
+/* IMAGEN CAROUSEL */
+
 
 .img_carousel img {
+    width: 100%; 
+    max-height: 600px; 
+    min-height: 400px;
+    object-fit: cover; 
     border-radius: 20px;
 }
 
@@ -108,26 +108,62 @@ body {
 }
 
 .contacto_column {
+
     margin-top: -10px;
+    
 }
 
 .text_formulario {
     font-weight: bold;
     margin-top: -20px;
+    width: 100vh;
 }
 
 .contacto_saludo {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
 }
+.container_map {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
 
 .contacto_map {
-    margin: 40px 0px 0px 0px; 
-    min-width: 350px;
-    min-height: 450px;
-    border: 3px solid gray;
+    display: inline;
+    align-items: center;
     border-radius: 10px;
 }
+
+.padre_flex {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+  
+.hijo_flex {
+    width: 50%;
+    min-width: 500px;
+
+}
+@media (max-width: 500px) {
+    .text_formulario {
+        max-width: 500px;
+    }
+
+}
+
+@media (min-width: 501px) and (max-width: 900px) {
+    .text_formulario {
+        max-width: 900px;
+        min-width: 501px;
+    }
+
+}
+
 
 /* GALERIA */
 .item {
@@ -171,7 +207,18 @@ body {
 }
   
 
+/* FOOTER */
+
+.logo_redes {
+    width: 35px;
+
+}
+
+
   
   
-  
-  
+
+
+/*prueba contacto*/
+
+
