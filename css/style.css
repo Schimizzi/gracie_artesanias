@@ -85,7 +85,7 @@ body {
 .fondo_body {
     background-image: url("../img/fondo_sobremi2.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 100%;
     background-repeat: no-repeat;
 }
 
